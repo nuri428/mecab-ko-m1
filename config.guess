@@ -1228,6 +1228,7 @@ EOF
 		      UNAME_PROCESSOR="x86_64"
 		  fi
 		fi ;;
+		arm) UNAME_PROCESSOR="aarch64";;
 	    unknown) UNAME_PROCESSOR=powerpc ;;
 	esac
 	echo ${UNAME_PROCESSOR}-apple-darwin${UNAME_RELEASE}
